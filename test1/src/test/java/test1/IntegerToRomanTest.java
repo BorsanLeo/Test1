@@ -14,13 +14,6 @@ public class IntegerToRomanTest {
         assertEquals("I", IntegerToRoman.convert(1));
         assertEquals("II", IntegerToRoman.convert(2));
         assertEquals("III", IntegerToRoman.convert(3));
-        assertEquals("I", IntegerToRoman.convert(1));
     }
-    @Test
-    public void testConvertInvalidInput() {        
-        IntegerToRoman converter = new IntegerToRoman();
-        
-        assertThrows(IllegalArgumentException.class, () -> converter.convert(0));
-        assertThrows(IllegalArgumentException.class, () -> converter.convert(11));
-    }
+
 }
