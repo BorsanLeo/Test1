@@ -18,7 +18,7 @@ public class IntegerToRomanTest {
     }
     @Test
     public void testConvertInvalidInput() {        
-        assertThrows(IllegalArgumentException.class, () -> IntegerToRoman.convert(0));
-        assertThrows(IllegalArgumentException.class, () -> IntegerToRoman.convert(11));
+        assertThrows(IllegalArgumentException.class, () -> IntegerToRoman.convert(-123));
+        assertThrows(IllegalArgumentException.class, () -> IntegerToRoman.convert(1022));
     }
 }
