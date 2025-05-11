@@ -20,6 +20,6 @@ jobs:
     - name: Test with JaCoCo
       run: mvn test jacoco:report --file test1/pom.xml
     - name: Upload to Coveralls
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn coveralls:report --file test1/pom.xml
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    run: mvn coveralls:report -Dservice=github -DserviceJobId=${{ github.run_id }} --file test1/pom.xml
