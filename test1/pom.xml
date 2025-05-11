@@ -146,6 +146,10 @@
         <version>4.3.0</version>
         <configuration>
           <repoToken>${env.COVERALLS_REPO_TOKEN}</repoToken>
+          <sourceDirectories>
+            <sourceDirectory>src/main/java</sourceDirectory>
+            <sourceDirectory>src/test/java</sourceDirectory>
+          </sourceDirectories>
           <jacocoReports>
             <jacocoReport>target/site/jacoco/jacoco.xml</jacocoReport>
           </jacocoReports>
