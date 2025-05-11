@@ -148,8 +148,8 @@
           <repoToken>${env.COVERALLS_REPO_TOKEN}</repoToken>
           <gitRepoRootDirectory>${project.basedir}/test1</gitRepoRootDirectory>
           <sourceDirectories>
-            <sourceDirectory>test1/src/main/java</sourceDirectory>
-            <sourceDirectory>test1/src/test/java</sourceDirectory>
+            <sourceDirectory>test1/src/main/java/test1</sourceDirectory>
+            <sourceDirectory>test1/src/test/java/test1</sourceDirectory>
           </sourceDirectories>
           <jacocoReports>
             <jacocoReport>target/site/jacoco/jacoco.xml</jacocoReport>
