@@ -19,7 +19,7 @@ jobs:
       run: mvn -B package --file test1/pom.xml
     - name: Test with JaCoCo
       run: mvn test jacoco:report --file test1/pom.xml
-    - name: Upload to Coveralls
-      env:
-        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-      run: mvn coveralls:report --file test1/pom.xml
+    - name: Submit coverage to Coveralls
+      uses: coverallsapp/github-action@v2
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
