@@ -6,6 +6,7 @@ package test1;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class IntegerToRomanTest {
     @Test
@@ -14,5 +15,10 @@ public class IntegerToRomanTest {
         assertEquals("II", IntegerToRoman.convert(2));
         assertEquals("III", IntegerToRoman.convert(3));
         assertEquals("I", IntegerToRoman.convert(1));
+    }
+    @Test
+    public void testConvertInvalidInput() {        
+        assertThrows(IllegalArgumentException.class, () -> IntegerToRoman.convert(0));
+        assertThrows(IllegalArgumentException.class, () -> IntegerToRoman.convert(11));
     }
 }
