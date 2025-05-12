@@ -85,6 +85,7 @@
         <version>3.3.1</version>
         <configuration>
           <failsOnError>true</failsOnError>
+          <includeTestSourceDirectory>true</includeTestSourceDirectory>
           <configLocation>checkstyle.xml</configLocation>
           <consoleOutput>true</consoleOutput>
         </configuration>

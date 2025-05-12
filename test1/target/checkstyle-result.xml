@@ -2,4 +2,10 @@
 <checkstyle version="9.3">
 <file name="D:\Uni\MTSS\Test1\test1\src\main\java\test1\IntegerToRoman.java">
 </file>
+<file name="D:\Uni\MTSS\Test1\test1\src\main\java\test1\RomanPrinter.java">
+</file>
+<file name="D:\Uni\MTSS\Test1\test1\src\test\java\test1\IntegerToRomanTest.java">
+</file>
+<file name="D:\Uni\MTSS\Test1\test1\src\test\java\test1\RomanPrinterTest.java">
+</file>
 </checkstyle>
