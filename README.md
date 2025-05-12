@@ -2,4 +2,4 @@
 // NOME1 COGNOME1 MATRICOLA1 
 // NOME2 COGNOME2 MATRICOLA2 
 ////////////////////////////////////////////////////////////////////
-[![Coverage Status](https://coveralls.io/repos/github/BorsanLeo/Test1/badge.svg?branch=develop)](https://coveralls.io/github/BorsanLeo/Test1?branch=develop)
+[![Coverage Status](https://coveralls.io/repos/github/BorsanLeo/NumberConverter/badge.svg?branch=develop)](https://coveralls.io/github/BorsanLeo/NumberConverter?branch=develop).
